@@ -1,16 +1,9 @@
 
 function App() {
   return (
-    <>
-      <Navbar />
-
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
-      <Journey />
-      <Contact />
-    </>
+    <div>
+      <h1>Hasset's Portfolio</h1>
+    </div>
   );
 }
 
