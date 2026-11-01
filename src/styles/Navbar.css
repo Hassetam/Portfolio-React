@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(11, 0, 10);
+    color: white;
+}
+
+header{
+   display: flex;
+   justify-content: space-around;
+   height: 40px;
+   margin-top: 20px;
+}
+
+.logo{
+    width: 20%;
+}
+
+nav{
+    width: 30%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
