@@ -1,4 +1,4 @@
-import '../styles/Skillcard.css';
+import '../styles/SkillCard.css';
 
 function SkillCard({ topic, point1, point2, point3 }) {
     return (
