@@ -1,3 +1,4 @@
+import '../styles/Title.css';
 
 function Title({ smallTitle, title }) {
     return (
