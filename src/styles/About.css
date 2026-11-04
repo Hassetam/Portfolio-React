@@ -1,0 +1,91 @@
+.about {
+    padding: 40px 5.5%;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    column-gap: 70px;
+}
+
+.about .title {
+    grid-column: 1 / -1;
+}
+
+.right-side {
+    width: 100%;
+    padding: 0 20px;
+    border-right: 1px solid #5b3661;
+}
+
+.profilepic img {
+    width: 100%;
+    height: 388px;
+    object-fit: cover;
+    border-radius: 35px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.socials a {
+    border: 1px solid #8e5a96;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side h3 {
+    font-size: 68px;
+    line-height: 1.15;
+    margin: 0 0 50px;
+}
+
+.left-side p {
+    width:100%;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+.qualities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .about {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about .title {
+        grid-column: 1;
+    }
+
+    .right-side {
+        border-right: none;
+        max-width: 320px;
+        margin: auto;
+    }
+
+    .left-side h3 {
+        font-size: 42px;
+    }
+
+    .left-side p {
+        font-size: 17px;
+    }
+
+    .title h2 {
+        font-size: 48px;
+    }
+
+    .qualities {
+        
+    }
+}

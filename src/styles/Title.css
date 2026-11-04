@@ -1,0 +1,22 @@
+.title {
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+
+.small-title {
+    font-size: 15px;
+    letter-spacing: 8px;
+    margin-bottom: 25px;
+}
+
+.title h2 {
+    font-size: 75px;
+    margin: 0 0 30px;
+}
+
+.title-line {
+    width: 120px;
+    height: 5px;
+    background: linear-gradient(to right, #a52cff, #520a55);
+    border-radius: 5px;
+}

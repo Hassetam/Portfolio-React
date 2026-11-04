@@ -1,0 +1,17 @@
+.btn {
+    display: inline-block;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(to right, #a77ce2, #db86ee);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
