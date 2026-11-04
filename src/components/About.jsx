@@ -11,7 +11,7 @@ function About(){
 
             <div className="right-side">
                 <div className="profilepic">
-                    <img src="../public/images/profile/pp.png"/>
+                    <img src="../images/profile/pp.png"/>
                 </div>
                     
                 <div className="socials">
