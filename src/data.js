@@ -160,25 +160,25 @@ export const skill ={
 
 export const projects= {
     things: {
-        image: "./public/images/projects/thingsilove.jpg",
+        image: "./images/projects/thingsilove.jpg",
         name: "Things I Love",
         desc: "My first web development project. It was the project that made me believe I could actually build websites. While it was simple, it taught me the fundamentals of HTML and CSS and gave me the confidence to continue learning web development. It marks the beginning of my journey as a software engineering student.",
         },
     
     puppy: {
-        image: "./public/images/projects/puppy.jpg",
+        image: "./images/projects/puppy.jpg",
         name: "Puppy Lovers Page",
         desc: " A responsive webpage built to strengthen my understanding of HTML and CSS. Through this project, I learned how to structure web pages properly, work with layouts, and apply CSS styling techniques to create a clean and visually appealing design.", 
         },
 
     apple: {
-        image: "./public/images/projects/apple.jpg",
+        image: "./images/projects/apple.jpg",
         name: "Apple First Page Cloning",
         desc: "A front-end recreation of Apple's homepage focused on achieving a modern, clean design. This project improved my skills in responsive layouts, typography, spacing, positioning, and attention to detail while recreating a professional website interface.",
         },
 
     gym: {
-        image: "./public/images/projects/gym.jpg",
+        image: "./images/projects/gym.jpg",
         name: "Gym Website",
         desc: "A complete front-end website designed for a fictional gym. This project brought together everything I had learned, including responsive design, navigation bars, hero sections, service cards, and modern UI design. It strengthened my ability to organize larger projects and create polished, user-friendly websites.",
     }
