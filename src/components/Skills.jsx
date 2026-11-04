@@ -1,6 +1,5 @@
 import Title from "./Title";
-import Button from "./Button";
-import SkillCard from "./SkillCard";
+import SkillCard from "./SkillCard.jsx";
 import '../styles/Skills.css';
 import { sectionTitles, buttons, skill } from "../data.js"
 
